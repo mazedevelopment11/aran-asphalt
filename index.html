@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Aran Asphalt</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Aran Asphalt — asphalt production, paving and road maintenance for the Kurdistan Region and Iraq since 2007. A Halabja Group company.">
@@ -1005,3 +1010,20 @@ document.querySelectorAll("img[data-img]").forEach(function(i){var d=IMG[i.datas
   onScroll();placeThumbs();
 })();
 </script>
+
+<style>
+/* Halabja Group mark, pinned bottom-left on every screen, no background.
+   White mark + difference blend: reads dark on white pages, light on the navy bands. */
+.hg-badge{position:fixed;z-index:65;left:calc(20px + env(safe-area-inset-left,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));
+  display:block;line-height:0;mix-blend-mode:difference;transition:transform .3s var(--ease),opacity .3s}
+.hg-badge img{height:56px;width:auto;display:block}
+.hg-badge:hover{transform:translateY(-2px)}
+@media (max-width:640px){.hg-badge{left:calc(14px + env(safe-area-inset-left,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px))}.hg-badge img{height:44px}}
+</style>
+
+<!-- Halabja Group mark, pinned bottom-left on every screen -->
+<a class="hg-badge" href="https://mazedevelopment11.github.io/halabja-group/" target="_blank" rel="noopener" aria-label="Halabja Group">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NjYuMTQ4IiBoZWlnaHQ9IjE0MzIuNTU1IiB2aWV3Qm94PSIwIDAgNTY2LjE0OCAxNDMyLjU1NSI+CiAgPGcgaWQ9ImhnX2xvZ28tMDEiIGRhdGEtbmFtZT0iaGcgbG9nby0wMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE5Ljg5IC0yOC40NykiPgogICAgPHBhdGggaWQ9IlBhdGhfNDA2NyIgZGF0YS1uYW1lPSJQYXRoIDQwNjciIGQ9Ik00NDIuMTEsMzEyLjg2djM0MC4zN0gzMjYuNTYzYy0yMC4yNSwwLTM3LjMxMS0xLjMyOS01MS4zNjktMy43NDctLjk4My0uMjEzLTEuOTkzLS40LTMuMDMtLjYzOC0yLjczNy0uNS01LjIzNS0xLjE0My03LjczMy0xLjc1NC0xOS4wODEtNS43NjctMzcuNTc3LTE4LjA0NC00NC41MTMtMjMuMDQtLjY2NC0uNDc4LTEuNDYyLS45ODMtMi4xMjYtMS40ODgtLjQ3OC0uMzcyLTEuMDEtLjc3MS0xLjAxLS43NzFxLTUyLjk3Ny00Mi4wOTUtNTIuOTktOTguM1YzMTIuODZIMTkuODlWNDMxLjUxNnEwLDQ3LjExNywyOC4zMjksMTEzLjE4MmMyMy45Nyw0Mi42MjYsNTMuNzM0LDc2LjQ4Miw4OSwxMDIuNDE5LDAsMCw0Ny4yNSwzNy45NDksOTguMzUzLDQ1Ljg5NSwxLjM1NS4yMzksMi42MzEuNTMyLDQuMDEzLjc3MS43NzEuMDgsMS40NjIuMjkyLDIuMTI2LjQuNS4wMjcuOCwwLDEuMjIyLjAyNywzNi4wMzUsNS42ODcsODkuNTgzLDguNTU3LDE2MS40NDIsOC41NTdoMzcuNzF2MTA1LjA1YzAsNTMuMDE3LTI5Ljc5LDk0LjQ0Ny04OC45NzIsMTI0LjUtMi4yODUsMS4wMS00Ljk0MywyLjA3My03LjQ2OCwzLjAzLTIuODQ0LDEuMDktNS45NzksMi4wNDYtOS4xOTUsMy4wODMtLjUzMS4yMTMtLjk4My4yOTItMS41MTUuNDUyYTExMC45LDExMC45LDAsMCwxLTMxLjgzNyw0Ljg5bC0uMjEzLjAyN2gtMi43NjR2NDUuNjI5YTIzMy40NjQsMjMzLjQ2NCwwLDAsMCwzMi4zOTUtLjhjNC4xMTktLjQsOC40NzctLjg1MSwxMy4yMzQtMS40ODgsNC4zNTgtLjUzMSw4Ljk4Mi0xLjI3NiwxMy43MzktMi4yMDYuMjEzLDAsLjIzOS0uMDguMjM5LS4wOGEyNjcuNTQ5LDI2Ny41NDksMCwwLDAsNDMuMTMxLTEyLjY3NmMyNS41MzgtOS45OTIsNTAuMjc5LTIyLjk4Nyw3MS43MjUtNDAuMzE0YTM0MS40NDIsMzQxLjQ0MiwwLDAsMCwzMy44My0zMS43ODNjMTcuMDYxLTE3LjkzOCwzMi40NzQtMzcuNTUsNDQuODMyLTU4Ljk2OSwxMy40NDctMjMuMzU5LDIzLjY3OC00OC44NzEsMjguNDM1LTc1LjUyNmEyNjEuMjMzLDI2MS4yMzMsMCwwLDAsNC4zMzItNDUuMDQ0VjMxMi44NloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNDcxLjM2OSkiIGZpbGw9IiNmZmYiLz4KICAgIDxwYXRoIGlkPSJQYXRoXzQwNjgiIGRhdGEtbmFtZT0iUGF0aCA0MDY4IiBkPSJNNTA1LjQ5LDQ0My4zNTVjLTM4LjUwNy0zOS4yLTg3LjA1OS03MC0xNDEuNTY0LTgwLjMzNS0zMi45LTYuMjE4LTY1LjY2Ni00Ljg5LTk4LjkzOC00Ljg5LTI4LjExNiwwLTU2Ljk3Ni4wOC04NS4wOTIsMC0uOSwwLTE4LjUtLjAyNy0xOC41LS4wMjdWMjguNDdIMTkuODlWNzM2LjIwOUgxNjMuODE5VjQwNy41ODVIMzE4LjAzMmMxMi43NTYsMS44NiwyMy41NDUsNC4yMjUsMzIuMDQ5LDcuMTIycTkyLjA0Miw0MC4wNjEsOTIuMDI4LDEyNS4wMDhWNzM2LjIwOUg1ODYuMDM4VjYyNy4wNGMwLTU4LjY1MS0yNC4xMy0xMTUuMDE2LTYwLjEzOS0xNjAuNjQ0LTYuMy03Ljg0LTEzLjE1NC0xNS41NzMtMjAuNDA5LTIzLjA0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBmaWxsPSIjZmZmIi8+CiAgPC9nPgo8L3N2Zz4K" alt="Halabja Group">
+</a>
+</body>
+</html>
